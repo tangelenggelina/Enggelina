@@ -1,0 +1,179 @@
+00:00:00.004536 main     VirtualBox COM Server 6.1.28 r147628 win.amd64 (Oct 18 2021 18:49:03) release log
+00:00:00.004554 main     Log opened 2021-11-16T12:56:01.888286600Z
+00:00:00.004554 main     Build Type: release
+00:00:00.004558 main     OS Product: Windows 10
+00:00:00.004559 main     OS Release: 10.0.19042
+00:00:00.004560 main     OS Service Pack: 
+00:00:00.023046 main     DMI Product Name: ASUS TUF Gaming F15 FX506LH_FX506LH
+00:00:00.032329 main     DMI Product Version: 1.0
+00:00:00.032337 main     Firmware type: UEFI
+00:00:00.032618 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.032631 main     Host RAM: 8029MB (7.8GB) total, 4532MB (4.4GB) available
+00:00:00.032635 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.032636 main     Process ID: 8040
+00:00:00.032637 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.092024          VirtualBox: object creation starts
+00:00:00.094476          Home directory: 'C:\Users\User\.VirtualBox'
+00:00:00.094849          Installed Drivers:
+00:00:00.097716            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.28.47628)
+00:00:00.098418            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.28.47628)
+00:00:00.098755            C:\WINDOWS\system32\DRIVERS\VBoxDrv.sys (Version: 6.1.28.47628)
+00:00:00.115368          Loading settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.124205          usbLibGetDevices: Starting USB device enumeration
+00:00:00.148335          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:00:00.149130          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:00:00.151924          usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:00.154225          USB: Unknown USB device detected (idVendor: 0x13d3, idProduct: 0x56a2)
+00:00:00.155793          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0026)
+00:00:00.266928          HostDnsMonitor: initializing
+00:00:00.273243          HostDnsMonitor: updating information
+00:00:00.273245          HostDnsMonitor: unchanged
+00:00:00.330568          VD: VDInit finished with VINF_SUCCESS
+00:00:00.347500          Loading settings file "C:\Users\User\VirtualBox VMs\kelompok 9\kelompok 9.vbox" with version "1.15-windows"
+00:00:00.362549          Loading settings file "C:\Users\User\VirtualBox VMs\Owncloud Kelompok 9\Owncloud Kelompok 9.vbox" with version "1.16-windows"
+00:00:00.363837          VirtualBox: object created
+00:01:47.399787 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:01:47.400499 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:01:47.400554 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:01:47.400672 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+00:03:02.063485 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:03:02.066049 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:03:02.066237 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:05:16.668176 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:05:16.670812 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:05:16.671007 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:05:17.402975 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:05:17.423752 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:05:17.424255 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:13:38.290777 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:13:38.295563 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:13:38.300094 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:13:48.364644 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:13:48.371799 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:13:48.372407 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:13:57.562885 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:13:57.577924 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:13:57.578210 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:14:28.327195 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:14:28.331045 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:14:28.331591 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:14:59.122977          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:15:07.346669          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:16:52.746631 createBase Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:16:52.777171          Saving settings file "C:\Users\User\VirtualBox VMs\(proxmox)\(proxmox).vbox" with version "1.16-windows"
+00:16:52.781760          Saving settings file "C:\Users\User\VirtualBox VMs\(proxmox)\(proxmox).vbox" with version "1.16-windows"
+00:16:52.785405          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:16:52.800354          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:16:52.805917          Saving settings file "C:\Users\User\VirtualBox VMs\(proxmox)\(proxmox).vbox" with version "1.16-windows"
+00:17:58.033596          Launched VM: 70092080 pid: 3320 (0xcf8) frontend: GUI/Qt name: (proxmox)
+00:18:02.898593          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:18:03.229646          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:18:07.701214 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:18:07.704029 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:18:07.704270 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:18:08.395543 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:18:08.398163 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+00:18:08.398355 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:18:08.485270 SVCHelper Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:18:08.490429 SVCHelper Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:18:08.495355 SVCHelper Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:18:08.500597 SVCHelper Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:18:08.504925 SVCHelper Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:18:08.739056          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:18:08.743692          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:18:08.747568          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:18:08.751626          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:18:08.755442          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:18:08.760394          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:18:09.332425 dns-monitor HostDnsMonitor: updating information
+00:18:09.332449 dns-monitor HostDnsMonitor: unchanged
+00:18:29.407202          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:18:29.412556          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:18:36.457342          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:18:36.472222          Saving settings file "C:\Users\User\VirtualBox VMs\(proxmox)\(proxmox).vbox" with version "1.16-windows"
+00:20:57.185127          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:20:57.193534          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:20:57.201561          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:22:21.737425          Saving settings file "C:\Users\User\VirtualBox VMs\(proxmox)\(proxmox).vbox" with version "1.16-windows"
+00:23:02.945455          Saving settings file "C:\Users\User\VirtualBox VMs\(proxmox)\(proxmox).vbox" with version "1.16-windows"
+00:23:02.992779          Saving settings file "C:\Users\User\VirtualBox VMs\(proxmox)\(proxmox).vbox" with version "1.16-windows"
+00:23:03.582662          Saving settings file "C:\Users\User\VirtualBox VMs\(proxmox)\(proxmox).vbox" with version "1.16-windows"
+00:23:03.620319          Saving settings file "C:\Users\User\VirtualBox VMs\(proxmox)\(proxmox).vbox" with version "1.16-windows"
+00:23:19.676244          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:23:47.847586 createBase Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:23:48.370321          Saving settings file "C:\Users\User\VirtualBox VMs\(proxmox)\(proxmox).vbox" with version "1.16-windows"
+00:23:48.384184          Saving settings file "C:\Users\User\VirtualBox VMs\(proxmox)\(proxmox).vbox" with version "1.16-windows"
+00:23:48.386647          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:23:48.393804          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:23:48.398766          Saving settings file "C:\Users\User\VirtualBox VMs\(proxmox)\(proxmox).vbox" with version "1.16-windows"
+00:24:13.761836          Saving settings file "C:\Users\User\VirtualBox VMs\(proxmox)\(proxmox).vbox" with version "1.16-windows"
+00:24:17.118331          Launched VM: 70091840 pid: 7972 (0x1f24) frontend: GUI/Qt name: (proxmox)
+00:24:21.454819          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:24:21.702554          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:24:28.964999          Saving settings file "C:\Users\User\VirtualBox VMs\(proxmox)\(proxmox).vbox" with version "1.16-windows"
+00:30:46.727740          Saving settings file "C:\Users\User\VirtualBox VMs\(proxmox)\(proxmox).vbox" with version "1.16-windows"
+00:42:51.240850 MainPower Host suspending: Paused 1 VMs
+01:16:55.326068 MainPower Host resumed: Resumed 1 VMs
+01:18:28.545751 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:18:28.548296 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+01:18:28.548532 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:19:04.210315 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:19:04.222550 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:19:04.222605 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+01:19:04.222708 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:19:04.222732 USBPROXY USB: Unknown USB device detected (idVendor: 0x13d3, idProduct: 0x56a2)
+01:19:41.439660 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:19:41.452078 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:19:41.452146 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+01:19:41.452255 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:19:49.677188 dns-monitor HostDnsMonitor: updating information
+01:19:49.677227 dns-monitor HostDnsMonitor: old information
+01:19:49.677232 dns-monitor   no server entries
+01:19:49.677237 dns-monitor   no domain set
+01:19:49.677240 dns-monitor   no search string entries
+01:19:49.677244 dns-monitor HostDnsMonitor: new information
+01:19:49.677246 dns-monitor   server 1: 192.168.43.1
+01:19:49.677250 dns-monitor   no domain set
+01:19:49.677253 dns-monitor   no search string entries
+01:20:11.334982 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:20:11.337568 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+01:20:11.337682 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:21:33.376277 USBPROXY usbLibGetDevices: Starting USB device enumeration
+01:21:33.388743 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+01:21:33.388793 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+01:21:33.388899 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+01:21:33.388960 USBPROXY USB: Unknown USB device detected (idVendor: 0x13d3, idProduct: 0x56a2)
+02:03:40.813279 USBPROXY usbLibGetDevices: Starting USB device enumeration
+02:03:40.825336 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+02:03:40.825439 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&77e38e6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 14
+02:03:40.825642 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+02:08:02.267062 dns-monitor HostDnsMonitor: updating information
+02:08:02.267141 dns-monitor HostDnsMonitor: old information
+02:08:02.267145 dns-monitor   server 1: 192.168.43.1
+02:08:02.267148 dns-monitor   no domain set
+02:08:02.267151 dns-monitor   no search string entries
+02:08:02.267153 dns-monitor HostDnsMonitor: new information
+02:08:02.267156 dns-monitor   no server entries
+02:08:02.267158 dns-monitor   no domain set
+02:08:02.267160 dns-monitor   no search string entries
+02:08:05.066051 dns-monitor HostDnsMonitor: updating information
+02:08:05.066064 dns-monitor HostDnsMonitor: old information
+02:08:05.066067 dns-monitor   no server entries
+02:08:05.066070 dns-monitor   no domain set
+02:08:05.066072 dns-monitor   no search string entries
+02:08:05.066142 dns-monitor HostDnsMonitor: new information
+02:08:05.066146 dns-monitor   server 1: 192.168.43.1
+02:08:05.066149 dns-monitor   no domain set
+02:08:05.066152 dns-monitor   no search string entries
+02:26:14.905199          Saving settings file "C:\Users\User\VirtualBox VMs\(proxmox)\(proxmox).vbox" with version "1.16-windows"
+02:26:15.142169          Saving settings file "C:\Users\User\VirtualBox VMs\(proxmox)\(proxmox).vbox" with version "1.16-windows"
+02:26:15.716000          Saving settings file "C:\Users\User\VirtualBox VMs\(proxmox)\(proxmox).vbox" with version "1.16-windows"
+02:26:15.745581          Saving settings file "C:\Users\User\VirtualBox VMs\(proxmox)\(proxmox).vbox" with version "1.16-windows"
+02:26:16.942308          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+02:26:16.945557          Saving settings file "C:\Users\User\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+02:26:22.476161 main     VirtualBox: object deletion starts
+02:26:22.476205 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\User\VirtualBox VMs\(proxmox)\(proxmox).vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+02:26:22.478356 main     HostDnsMonitor: shutting down ...
+02:26:22.478425 main     HostDnsMonitor: shut down
+02:26:22.479643 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+02:26:22.480073 main     VirtualBox: object deleted

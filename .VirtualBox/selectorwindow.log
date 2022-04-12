@@ -1,0 +1,21 @@
+00:00:00.093971 VirtualBox GUI VM Selector Window 6.1.28 r147628 win.amd64 (Oct 18 2021 18:49:03) release log
+00:00:00.093974 Log opened 2021-11-29T12:05:30.385315900Z
+00:00:00.093974 Build Type: release
+00:00:00.093977 OS Product: Windows 10
+00:00:00.093978 OS Release: 10.0.19042
+00:00:00.093979 OS Service Pack: 
+00:00:00.105261 DMI Product Name: ASUS TUF Gaming F15 FX506LH_FX506LH
+00:00:00.109054 DMI Product Version: 1.0
+00:00:00.109064 Firmware type: UEFI
+00:00:00.109277 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.109288 Host RAM: 8029MB (7.8GB) total, 3924MB (3.8GB) available
+00:00:00.109291 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.109292 Process ID: 3252
+00:00:00.109293 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.109441 Qt version: 5.6.2
+00:00:00.120554 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.531341 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:53.853520 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:07:39.385581 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:08:13.730551 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:08:13.771428 GUI: UIMediumEnumerator: Medium-enumeration finished!

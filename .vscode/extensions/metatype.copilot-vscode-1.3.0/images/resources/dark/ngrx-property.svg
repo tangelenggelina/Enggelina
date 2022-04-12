@@ -1,0 +1,7 @@
+<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <path fill="#aaa" id="svg_1" d="m8,3c-1.1,0 -2,0.9 -2,2l0,4c0,1.1 -0.9,2 -2,2l-1,0l0,2l1,0c1.1,0 2,0.9 2,2l0,4c0,1.1 0.9,2 2,2l2,0l0,-2l-2,0l0,-5c0,-1.1 -0.9,-2 -2,-2c1.1,0 2,-0.9 2,-2l0,-5l2,0l0,-2m6,0c1.1,0 2,0.9 2,2l0,4c0,1.1 0.9,2 2,2l1,0l0,2l-1,0c-1.1,0 -2,0.9 -2,2l0,4c0,1.1 -0.9,2 -2,2l-2,0l0,-2l2,0l0,-5c0,-1.1 0.9,-2 2,-2c-1.1,0 -2,-0.9 -2,-2l0,-5l-2,0l0,-2l2,0z"/>
+  <text font-weight="bold" transform="matrix(0.28489508396010876,0,0,0.43052749482125474,6.766392560363945,-3.6522553372456743) " xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_3" y="45.476896" x="20.282667" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#aaa">P</text>
+ </g>
+</svg>

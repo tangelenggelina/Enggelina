@@ -1,0 +1,11 @@
+<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <path fill="#aaa" d="m10.71328,5.06788c-1.1,-0.1 -2.07,0.71 -2.17,1.82l-0.25,2.89l2.82,0l0,2l-3,0l-0.44,5.07c-0.19,2.2 -2.13,3.83 -4.33,3.63c-1.31,-0.11 -2.41,-0.84 -3.06,-1.87l1.5,-1.5c0.24,0.74 0.9,1.31 1.73,1.38c1.1,0.1 2.07,-0.71 2.17,-1.82l0.43,-4.89l-3,0l0,-2l3.17,0l0.27,-3.07c0.19,-2.2 2.13,-3.83 4.33,-3.63c1.31,0.11 2.41,0.84 3.06,1.87l-1.5,1.5c-0.24,-0.74 -0.9,-1.31 -1.73,-1.38z" id="svg_1"/>
+  <path id="svg_4" d="m14.20853,15.30175l-1.95747,1.43088l1.95747,1.43088l-1.11873,0.81801l-3.0762,-2.24889l3.0762,-2.24912" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="null" fill="#aaa"/>
+  <path id="svg_6" d="m20.06495,18.02772l1.81015,-1.39555l-1.81015,-1.39555l1.03454,-0.79758l2.84498,2.19313l-2.84498,2.19381" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="null" fill="#aaa"/>
+  <text transform="matrix(0.12729265105127252,0,0,0.10243718052299387,13.72151995955757,18.80836485627149) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_9" y="-9.72464" x="19.86906" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#aaa">O</text>
+  <text transform="matrix(0.12271179670105424,0,0,0.086621471919175,16.05448296537414,16.050534236266365) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_10" y="18.80238" x="18.45263" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#aaa">T</text>
+ </g>
+
+</svg>

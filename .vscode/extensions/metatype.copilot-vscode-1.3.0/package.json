@@ -1,0 +1,679 @@
+{
+	"name": "copilot-vscode",
+	"displayName": "Copilot for VS Code",
+	"description": "JavaScript/TypeScript development tooling",
+	"keywords": [
+		"Angular",
+		"React",
+		"Vue",
+		"Nest",
+		"JavaScript",
+		"TypeScript"
+	],
+	"author": {
+		"name": "Metatype, Inc."
+	},
+	"publisher": "Metatype",
+	"homepage": "https://angulardoc.github.io",
+	"bugs": "https://github.com/AngularDoc/angulardoc.github.io/issues",
+	"icon": "images/logo.png",
+	"galleryBanner": {
+		"color": "#00695C",
+		"theme": "light"
+	},
+	"license": "SEE LICENSE IN LICENSE.md",
+	"private": true,
+	"version": "1.3.0",
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"categories": [
+		"Programming Languages",
+		"Other"
+	],
+	"activationEvents": [
+		"workspaceContains:package.json",
+		"workspaceContains:tsconfig.json",
+		"workspaceContains:angular.json",
+		"onLanguage:typescript",
+		"onCommand:angular.schematics",
+		"onCommand:ngrx.schematics",
+		"onCommand:rxjs.decisionTree",
+		"onView:copilot.explorer"
+	],
+	"main": "./build/extension.js",
+	"contributes": {
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "copilot",
+					"title": "Copilot",
+					"icon": "images/copilot-vscode.svg"
+				}
+			]
+		},
+		"views": {
+			"copilot": [
+				{
+					"id": "copilot.explorer",
+					"name": "Application Explorer"
+				},
+				{
+					"id": "state.management.explorer",
+					"name": "State Management Explorer",
+					"when": "stateManagementEnabled"
+				}
+			]
+		},
+		"commands": [
+			{
+				"command": "copilot.explorer.refresh",
+				"title": "Refresh",
+				"icon": {
+					"light": "images/resources/light/refresh.svg",
+					"dark": "images/resources/dark/refresh.svg"
+				}
+			},
+			{
+				"command": "copilot.explorer.open",
+				"title": "Open File",
+				"category": "Copilot"
+			},
+			{
+				"command": "copilot.home.open",
+				"title": "Open Home Page",
+				"category": "Copilot"
+			},
+			{
+				"command": "copilot.explorer.groupByDecorators",
+				"title": "Group by Decorators",
+				"icon": {
+					"light": "images/resources/light/decorator.svg",
+					"dark": "images/resources/dark/decorator.svg"
+				}
+			},
+			{
+				"command": "copilot.explorer.groupByModules",
+				"title": "Group by Modules",
+				"icon": {
+					"light": "images/resources/light/ng-NgModule.svg",
+					"dark": "images/resources/dark/ng-NgModule.svg"
+				}
+			},
+			{
+				"command": "copilot.explorer.groupByDirectories",
+				"title": "Group by Directories",
+				"icon": {
+					"light": "images/resources/light/directory.svg",
+					"dark": "images/resources/dark/directory.svg"
+				}
+			},
+			{
+				"command": "copilot.explorer.groupByComponents",
+				"title": "Group by Components",
+				"icon": {
+					"light": "images/resources/light/component.svg",
+					"dark": "images/resources/dark/component.svg"
+				}
+			},
+			{
+				"command": "angular.schematics",
+				"title": "Schematics",
+				"category": "angular",
+				"icon": {
+					"light": "images/resources/light/schematics.svg",
+					"dark": "images/resources/dark/schematics.svg"
+				}
+			},
+			{
+				"command": "ngrx.schematics",
+				"title": "Schematics",
+				"category": "ngrx",
+				"icon": {
+					"light": "images/resources/light/schematics.svg",
+					"dark": "images/resources/dark/schematics.svg"
+				}
+			},
+			{
+				"command": "rxjs.decisionTree",
+				"title": "Operator Decision Tree",
+				"category": "rxjs",
+				"icon": {
+					"light": "images/resources/light/decision.svg",
+					"dark": "images/resources/dark/decision.svg"
+				}
+			},
+			{
+				"command": "nest.diagram",
+				"title": "Open Diagram",
+				"icon": {
+					"light": "images/resources/light/nestjs.svg",
+					"dark": "images/resources/dark/nestjs.svg"
+				}
+			},
+			{
+				"command": "stencil.diagram",
+				"title": "Open Diagram",
+				"icon": {
+					"light": "images/resources/light/ionic.svg",
+					"dark": "images/resources/dark/ionic.svg"
+				}
+			},
+			{
+				"command": "ngrx.diagram",
+				"title": "Ngrx Diagram",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "ngrx.diagram.selector",
+				"title": "Ngrx Selector",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "ngrx.diagram.select",
+				"title": "Ngrx Select",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "ngrx.diagram.effects",
+				"title": "Ngrx Effects",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "ngrx.diagram.effect",
+				"title": "Ngrx Effect",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "ngrx.diagram.reducer",
+				"title": "Ngrx Reducer",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "ngrx.diagram.store",
+				"title": "Ngrx Store",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "ngrx.diagram.state",
+				"title": "Ngrx State",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "ngrx.diagram.property",
+				"title": "Ngrx Property",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "ngrx.diagram.actions",
+				"title": "Ngrx Actions",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "ngrx.diagram.action",
+				"title": "Ngrx Action",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "ngrx.diagram.actionType",
+				"title": "Ngrx Action Type",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "ngrx.diagram.ofType",
+				"title": "Ngrx ofType",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "react.diagram",
+				"title": "React Diagram",
+				"icon": {
+					"light": "images/resources/light/react.svg",
+					"dark": "images/resources/dark/react.svg"
+				}
+			},
+			{
+				"command": "redux.diagram",
+				"title": "Redux Diagram",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "redux.diagram.action",
+				"title": "Redux Diagram",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "redux.diagram.connect",
+				"title": "Redux Diagram",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "redux.diagram.reducer",
+				"title": "Redux Diagram",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "vue.diagram",
+				"title": "Vue Diagram",
+				"icon": {
+					"light": "images/resources/light/vue.svg",
+					"dark": "images/resources/dark/vue.svg"
+				}
+			},
+			{
+				"command": "store.diagram",
+				"title": "Vuex Diagram",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "store.diagram.state",
+				"title": "Vuex Diagram",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "store.diagram.action",
+				"title": "Vuex Diagram",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "store.diagram.mutation",
+				"title": "Vuex Diagram",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			},
+			{
+				"command": "store.diagram.getter",
+				"title": "Vuex Diagram",
+				"icon": {
+					"light": "images/resources/light/diagram.svg",
+					"dark": "images/resources/dark/diagram.svg"
+				}
+			}
+		],
+		"menus": {
+			"commandPalette": [
+				{
+					"command": "copilot.explorer.open",
+					"when": "view == copilot.explorer"
+				}
+			],
+			"explorer/context": [
+				{
+					"command": "angular.schematics",
+					"group": "angular@1"
+				}
+			],
+			"view/title": [
+				{
+					"command": "nest.diagram",
+					"when": "view == copilot.explorer && nestjs",
+					"group": "navigation"
+				},
+				{
+					"command": "stencil.diagram",
+					"when": "view == copilot.explorer && stencil",
+					"group": "navigation"
+				},
+				{
+					"command": "react.diagram",
+					"when": "view == copilot.explorer && react",
+					"group": "navigation"
+				},
+				{
+					"command": "vue.diagram",
+					"when": "view == copilot.explorer && vue",
+					"group": "navigation"
+				},
+				{
+					"command": "copilot.explorer.groupByDecorators",
+					"when": "view == copilot.explorer && angular",
+					"group": "navigation"
+				},
+				{
+					"command": "copilot.explorer.groupByDecorators",
+					"when": "view == copilot.explorer && nestjs",
+					"group": "navigation"
+				},
+				{
+					"command": "copilot.explorer.groupByDecorators",
+					"when": "view == copilot.explorer && stencil",
+					"group": "navigation"
+				},
+				{
+					"command": "copilot.explorer.groupByDirectories",
+					"when": "view == copilot.explorer && stencil",
+					"group": "navigation"
+				},
+				{
+					"command": "copilot.explorer.groupByModules",
+					"when": "view == copilot.explorer && angular",
+					"group": "navigation"
+				},
+				{
+					"command": "copilot.explorer.groupByModules",
+					"when": "view == copilot.explorer && nestjs",
+					"group": "navigation"
+				},
+				{
+					"command": "copilot.explorer.groupByDirectories",
+					"when": "view == copilot.explorer && react",
+					"group": "navigation"
+				},
+				{
+					"command": "copilot.explorer.groupByComponents",
+					"when": "view == copilot.explorer && react",
+					"group": "navigation"
+				},
+				{
+					"command": "copilot.explorer.groupByDirectories",
+					"when": "view == copilot.explorer && vue",
+					"group": "navigation"
+				},
+				{
+					"command": "copilot.explorer.groupByComponents",
+					"when": "view == copilot.explorer && vue",
+					"group": "navigation"
+				},
+				{
+					"command": "copilot.explorer.refresh",
+					"when": "view == copilot.explorer",
+					"group": "navigation"
+				}
+			],
+			"view/item/context": [
+				{
+					"command": "angular.schematics",
+					"when": "view == copilot.explorer && viewItem == angular:project",
+					"group": "inline"
+				},
+				{
+					"command": "angular.schematics",
+					"when": "view == copilot.explorer && viewItem == angular:NgModule",
+					"group": "inline"
+				},
+				{
+					"command": "angular.schematics",
+					"when": "view == copilot.explorer && viewItem == angular:Component",
+					"group": "inline"
+				},
+				{
+					"command": "ngrx.schematics",
+					"when": "view == state.management.explorer && viewItem == ngrx:ngmodule",
+					"group": "inline"
+				},
+				{
+					"command": "ngrx.diagram",
+					"when": "view == state.management.explorer && viewItem == ngrx:ngmodule",
+					"group": "inline"
+				},
+				{
+					"command": "ngrx.diagram.effects",
+					"when": "view == state.management.explorer && viewItem == ngrx:effects",
+					"group": "inline"
+				},
+				{
+					"command": "ngrx.diagram.effect",
+					"when": "view == state.management.explorer && viewItem == ngrx:effect",
+					"group": "inline"
+				},
+				{
+					"command": "ngrx.diagram.selector",
+					"when": "view == state.management.explorer && viewItem == ngrx:selector",
+					"group": "inline"
+				},
+				{
+					"command": "ngrx.diagram.select",
+					"when": "view == state.management.explorer && viewItem == ngrx:select",
+					"group": "inline"
+				},
+				{
+					"command": "ngrx.diagram.reducer",
+					"when": "view == state.management.explorer && viewItem == ngrx:reducer",
+					"group": "inline"
+				},
+				{
+					"command": "ngrx.diagram.store",
+					"when": "view == state.management.explorer && viewItem == ngrx:store",
+					"group": "inline"
+				},
+				{
+					"command": "ngrx.diagram.state",
+					"when": "view == state.management.explorer && viewItem == ngrx:state",
+					"group": "inline"
+				},
+				{
+					"command": "ngrx.diagram.property",
+					"when": "view == state.management.explorer && viewItem == ngrx:property",
+					"group": "inline"
+				},
+				{
+					"command": "ngrx.diagram.actions",
+					"when": "view == state.management.explorer && viewItem == ngrx:actions",
+					"group": "inline"
+				},
+				{
+					"command": "ngrx.diagram.action",
+					"when": "view == state.management.explorer && viewItem == ngrx:action",
+					"group": "inline"
+				},
+				{
+					"command": "ngrx.diagram.actionType",
+					"when": "view == state.management.explorer && viewItem == ngrx:actionType",
+					"group": "inline"
+				},
+				{
+					"command": "ngrx.diagram.ofType",
+					"when": "view == state.management.explorer && viewItem == ngrx:ofType",
+					"group": "inline"
+				},
+				{
+					"command": "redux.diagram",
+					"when": "view == state.management.explorer && viewItem == redux:store",
+					"group": "inline"
+				},
+				{
+					"command": "redux.diagram.action",
+					"when": "view == state.management.explorer && viewItem == redux:action",
+					"group": "inline"
+				},
+				{
+					"command": "redux.diagram.connect",
+					"when": "view == state.management.explorer && viewItem == redux:connect",
+					"group": "inline"
+				},
+				{
+					"command": "redux.diagram.reducer",
+					"when": "view == state.management.explorer && viewItem == redux:reducer",
+					"group": "inline"
+				},
+				{
+					"command": "store.diagram",
+					"when": "view == state.management.explorer && viewItem == vuex:store",
+					"group": "inline"
+				},
+				{
+					"command": "store.diagram.state",
+					"when": "view == state.management.explorer && viewItem == vuex:state",
+					"group": "inline"
+				},
+				{
+					"command": "store.diagram.action",
+					"when": "view == state.management.explorer && viewItem == vuex:action",
+					"group": "inline"
+				},
+				{
+					"command": "store.diagram.mutation",
+					"when": "view == state.management.explorer && viewItem == vuex:mutation",
+					"group": "inline"
+				},
+				{
+					"command": "store.diagram.getter",
+					"when": "view == state.management.explorer && viewItem == vuex:getter",
+					"group": "inline"
+				}
+			]
+		},
+		"configuration": {
+			"id": "copilot",
+			"type": "object",
+			"title": "Copilot configuration",
+			"properties": {
+				"copilot.serverPath": {
+					"type": "string"
+				},
+				"copilot.fileFilter": {
+					"type": "array",
+					"default": [
+						"**/!(*.*spec).ts"
+					],
+					"description": "The file filter of Copilot's data collector."
+				},
+				"copilot.directoryFilter": {
+					"type": "array",
+					"default": [
+						"!typings",
+						"!node_modules",
+						"!.vscode"
+					],
+					"description": "The directory filter of Copilot's data collector."
+				},
+				"copilot.schematics": {
+					"type": "array",
+					"default": [
+						"@schematics/angular",
+						"@ngrx/schematics",
+						"@angular/pwa",
+						"@ng-bootstrap/schematics",
+						"@angular/material",
+						"@clr/angular",
+						"@angular/elements"
+					],
+					"description": "The schematics of angular cli."
+				},
+				"copilot.projectTypes": {
+					"type": "array",
+					"default": [
+						{
+							"projectType": "nestjs",
+							"matchDependency": "@nestjs/core"
+						}
+					],
+					"description": "The project type of analyzer."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"webpack": "npx webpack --config webpack.config.js",
+		"vscode:prepublish": "npm run compile && npm run webpack",
+		"compile": "tsc -p ./",
+		"watch": "npm run webpack && tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "yarn run compile && node ./node_modules/vscode/bin/test"
+	},
+	"dependencies": {
+		"comment-json": "^1.1.3",
+		"globby": "^9.2.0",
+		"js-yaml": "^3.13.1",
+		"open": "^6.2.0",
+		"request": "^2.88.0",
+		"rxjs": "^6.4.0",
+		"vscode-languageclient": "^5.2.1",
+		"vscode-languageserver": "^5.3.0-next.1",
+		"yauzl": "^2.10.0"
+	},
+	"devDependencies": {
+		"@types/js-yaml": "^3.12.1",
+		"@types/mocha": "^2.2.42",
+		"@types/node": "^10.12.21",
+		"@types/open": "^6.1.0",
+		"@types/yauzl": "2.9.1",
+		"gulp": "^4.0.0",
+		"gulp-clean": "^0.4.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-jshint": "^2.1.0",
+		"gulp-minify-css": "^1.2.4",
+		"gulp-ng-annotate": "^2.1.0",
+		"gulp-notify": "^3.2.0",
+		"gulp-rename": "^1.4.0",
+		"gulp-uglify": "^3.0.2",
+		"ts-loader": "^5.3.3",
+		"tslint": "^5.12.1",
+		"typescript": "^3.3.1",
+		"uglify-es": "^3.3.9",
+		"vscode": "^1.1.28",
+		"webpack": "^4.30.0",
+		"webpack-cli": "^3.3.0",
+		"webpack-dev-server": "^3.3.1"
+	},
+	"__metadata": {
+		"id": "f09ced11-7d9b-4992-9aa2-cf0b23cf92a1",
+		"publisherId": "13c658cc-ea10-419e-9ab2-316af2f31dd7",
+		"publisherDisplayName": "Metatype",
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1646646444286
+	}
+}
